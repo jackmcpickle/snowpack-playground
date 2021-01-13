@@ -1,0 +1,10 @@
+node_modules
+/[0-9]*
+# *
+
+# !/src/*.*
+# !/public/*.*
+# !.*
+# !package*
+# !readme*
+# !snow*
