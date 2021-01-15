@@ -18,7 +18,7 @@
     "@babel/plugin-syntax-class-properties": "7.12.1",
     "@babel/preset-env": "7.12.11",
     "@babel/preset-react": "7.12.10",
-    "@snowpack/plugin-babel": "2.1.5",
+    "@snowpack/plugin-babel": "2.1.6",
     "@types/jquery": "3.5.5",
     "@types/node": "12.19.13",
     "@types/react": "17.0.0",
