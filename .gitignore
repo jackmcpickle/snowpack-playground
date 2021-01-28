@@ -1,3 +1,5 @@
 node_modules
 .snowpack
 /[0-9]*
+.env
+build

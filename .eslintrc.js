@@ -16,7 +16,6 @@ module.exports = {
     plugins: ['prettier', 'jsx-a11y'],
     extends: ['eslint:recommended', 'plugin:prettier/recommended', 'react-app', 'react-app/jest'],
     rules: {
-        indent: ['warn', 4],
         'no-alert': 0,
         'no-console': 0,
     }
