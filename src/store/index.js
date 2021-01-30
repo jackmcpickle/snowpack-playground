@@ -1,25 +1,30 @@
 import { createContext, useContext } from 'react';
+import { appReducer, initialAppState } from './appStore';
 import { authReducer, authInitialState} from './authStore';
-import errorReducer from './errorStore';
+import { errorReducer, errorInitialState } from './errorStore';
 
 const AppContext = createContext();
 const { Provider } = AppContext;
 
-const initialState = {};
-
 export const AppContextProvider = ({...props, children }) => {
   const [authState, authDispatch] = useReducer(authInitialState, authReducer);
-  const [errorState, errorDispatch] = useReducer(initialState, errorReducer);
+  const [errorState, errorDispatch] = useReducer(errorInitialState, errorReducer);
+  const [appState, appDispatch] = useReducer(initialAppState, appReducer);
 
   return (
       <Provider
-      values={
+      values={{
             state: {
-              ...authState,
-              ...errorState
+              authState,
+              errorState,
+              appState,
             },
-            dispatch: { authDispatch, errorDispatch }
-          }
+            dispatch: {
+              authDispatch,
+              errorDispatch,
+              appDispatch
+            }
+          }}
           {...props}>
           {children}
       </Provider>
