@@ -21,7 +21,7 @@
     "@snowpack/plugin-babel": "2.1.6",
     "@types/jquery": "3.5.5",
     "@types/node": "12.19.15",
-    "@types/react": "17.0.0",
+    "@types/react": "17.0.1",
     "@types/react-dom": "17.0.0",
     "@typescript-eslint/eslint-plugin": "4.14.2",
     "@typescript-eslint/parser": "4.14.2",
