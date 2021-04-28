@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "snowpack dev",
+    "test": "npm run build",
     "build": "snowpack build"
   },
   "browserslist": [
