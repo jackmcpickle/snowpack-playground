@@ -15,9 +15,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "7.14.0",
+    "@babel/core": "7.14.2",
     "@babel/plugin-syntax-class-properties": "7.12.13",
-    "@babel/preset-env": "7.14.1",
+    "@babel/preset-env": "7.14.2",
     "@babel/preset-react": "7.13.13",
     "@snowpack/plugin-babel": "2.1.7",
     "@types/jquery": "3.5.5",
